@@ -1,0 +1,89 @@
+.confirmation-items {
+  margin: 30px auto;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.confirmation-items-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+  height: 40px;
+  background-color: rgb(142, 253, 156);
+  /* padding: 35px; */
+  width: 600px;
+  transform: translate(90px, 1px);
+  margin-top: 20px;
+  font-weight: 700px;
+  
+}
+
+.confirmation-items-total-price {
+  color: blue;
+}
+
+.confirmation-items-image {
+  width: 70px;
+  height: auto;
+  margin: 10px;
+}
+
+.confirmation-items-price {
+  color: rgb(25, 0, 255);
+}
+
+.confirmation-items-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.confirmation-items-name {
+  width: 40%;
+}
+
+.confirmation-items-list {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 5%;
+}
+
+.confirmation-produits {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 4%;
+}
+
+.confirmation-items-total-price-name {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30%;
+  font-size: 20px;
+  font-weight: 700;
+  border-top: 2px solid black;
+}
+
+
+.msg-confirmation{
+
+  color: black;
+  font-weight: 700;
+  font-family: cursive;
+}

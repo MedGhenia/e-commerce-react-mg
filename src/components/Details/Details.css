@@ -1,0 +1,53 @@
+.det-items {
+  width: 99%;
+  height: 450px;
+  margin: 20px auto;
+  background-color: rgb(224, 230, 230);
+
+  border-radius: 5px;
+}
+.det-name {
+  font-size: 25px;
+  display: flex;
+  font-weight: 700;
+  padding-top: 20px;
+  margin-left: 6%;
+  color: rgb(29, 7, 224);
+}
+.img {
+  width: 300px;
+  height: auto;
+  margin-left: 20px;
+  border: 2px solid black;
+  margin: 10px;
+}
+.det-item {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 1%;
+}
+.det-desc {
+  width: 620px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.det-price {
+  color: red;
+  font-weight: 700;
+}
+.det-comp {
+  text-align: center;
+  width: 200px;
+}
+
+
+.quantity-detail{
+  color: green;
+}
+
+#h5{
+  color: red;
+}

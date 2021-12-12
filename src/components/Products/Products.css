@@ -1,0 +1,93 @@
+
+
+.products {
+  margin: 20px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap ;
+  /* background-color: rgba(236, 236, 235, 0.959); */
+  background-image: linear-gradient(to left, rgb(14, 14, 14), rgb(136, 134, 136), rgb(0, 0, 0));
+  border-radius: 5px;
+  overflow: hidden;
+} 
+
+.card {
+  width: 280px;
+  height: 390px;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  margin: 20px 11px;
+  background-color: white;
+  position: sticky;
+  
+}
+
+.product-image {
+  width: 100px;
+  height: 200px;
+  max-width: 300px;
+  min-width: 200px;
+  display: block;
+  object-fit: cover;
+  margin-left: 30px;
+  overflow: hidden;
+
+}
+
+.product-name {
+  margin: 10px 0px;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 20px;
+  vertical-align: middle;
+  align-items: center;
+  
+
+}
+
+.product-price {
+  margin: 10px 0px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 70px;
+  color: red;
+}
+
+.product-add-button {
+  margin-left: 100px;
+}
+
+.product-details-button {
+  
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  width: 90px;
+  vertical-align: middle;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #00027a;
+  border-color: #1b1f2326;
+  margin-left: 10px;  
+}
+
+body{
+  /* background-image: linear-gradient(to left, rgb(255, 136, 0), rgb(138, 224, 206), rgb(138, 224, 206)); */
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  position: sticky ;
+}
+
+.signature{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fec564;
+  font-size: 20px;
+  font-style: unset;
+  font-weight: 500px;
+  width: 95%;
+  padding-left: 700px;
+  
+}
